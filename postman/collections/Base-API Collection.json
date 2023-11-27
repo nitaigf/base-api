@@ -8482,11 +8482,54 @@
 			"id": "b49bf71a-5d42-4ca9-9a10-720e13225862"
 		}
 	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{X-Api-Key}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-Api-Key",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4eae29a0-9e06-4b9b-ab8a-810e8468c24b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "cdcb6e89-62a8-451b-b013-a9f0c10ad7f9",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "037bc8f7-22d3-4f8b-8d63-1b19cda734e1",
+			"id": "a5ec7e08-fbec-48a5-82b4-94ded3c3cc66",
 			"key": "url",
 			"value": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io"
+		},
+		{
+			"id": "1bcc1453-704d-40f2-8ab7-70b1cbd9c344",
+			"key": "X-Api-Key",
+			"value": "{{X-Api-Key}}",
+			"type": "string"
 		}
 	]
 }
