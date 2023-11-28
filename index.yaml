@@ -13,7 +13,7 @@ security:
     - ApiKey:
           [
               "X-Api-Key",
-              "PMAK-6565241785db27179bbbf9eb-bcbe8e582bc9b75430c982a71920152c13",
+              "{{X-Api-Key}}",
           ]
 
 components:
