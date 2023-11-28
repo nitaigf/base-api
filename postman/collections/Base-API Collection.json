@@ -40,10 +40,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/core/welcome",
 									"protocol": "https",
@@ -61,10 +57,18 @@
 							},
 							"status": "OK",
 							"code": 200,
-							"_postman_previewlanguage": "Text",
-							"header": null,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
 							"cookie": [],
-							"body": ""
+							"body": "{\n    \"message\": \"Bem-vindo ao Base-API!\"\n}"
 						}
 					]
 				},
@@ -99,10 +103,6 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
 									"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/core/version",
 									"protocol": "https",
@@ -120,10 +120,18 @@
 							},
 							"status": "OK",
 							"code": 200,
-							"_postman_previewlanguage": "Text",
-							"header": null,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"name": "Content-Type",
+									"value": "application/json",
+									"description": "",
+									"type": "text"
+								}
+							],
 							"cookie": [],
-							"body": ""
+							"body": "{\n    \"number\": \"0.0.0\"\n}"
 						}
 					]
 				}

@@ -1,0 +1,71 @@
+openapi: 3.0.0
+
+info:
+    version: "1"
+    title: Base-API Postman API
+    license:
+        name: MIT
+
+servers:
+    - url: "https://5a8b1f75-60f7-4f30-a696-62a0a75d6b06.mock.pstmn.io"
+
+security:
+    - ApiKey:
+          [
+              "X-Api-Key",
+              "PMAK-6565241785db27179bbbf9eb-bcbe8e582bc9b75430c982a71920152c13",
+          ]
+
+components:
+    schemas:
+        CoreWelcome:
+            type: object
+            required:
+                - message
+            properties:
+                message:
+                    type: string
+        CoreVersion:
+            type: object
+            required:
+                - number
+            properties:
+                number:
+                    type: string
+    securitySchemes:
+        ApiKey:
+            type: apiKey
+            name: X-Api-Key
+            in: header
+
+paths:
+    /core/welcome:
+        get:
+            tags:
+                - core
+            summary: /core/welcome
+            description: /core/welcome
+            operationId: coreWelcomeMessage
+            responses:
+                "200":
+                    description: public welcome message
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/CoreWelcome"
+    /core/version:
+        get:
+            tags:
+                - core
+            summary: /core/version
+            description: /core/version
+            operationId: coreVersionNumber
+            responses:
+                "200":
+                    description: public version number
+                    content:
+                        application/json:
+                            schema:
+                                $ref: "#/components/schemas/CoreVersion"
+    
+        
