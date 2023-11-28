@@ -7,7 +7,8 @@ info:
         name: MIT
 
 servers:
-    - url: "https://5a8b1f75-60f7-4f30-a696-62a0a75d6b06.mock.pstmn.io"
+    # - url: "https://5a8b1f75-60f7-4f30-a696-62a0a75d6b06.mock.pstmn.io"
+    - url: "{{url}}"
 
 security:
     - ApiKey:

@@ -41,7 +41,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/core/welcome",
+									"raw": "{{url}}/core/welcome",
 									"protocol": "https",
 									"host": [
 										"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -104,7 +104,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/core/version",
+									"raw": "{{url}}/core/version",
 									"protocol": "https",
 									"host": [
 										"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -177,7 +177,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/shared/about",
+									"raw": "{{url}}/shared/about",
 									"protocol": "https",
 									"host": [
 										"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -236,7 +236,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/shared/contact",
+									"raw": "{{url}}/shared/contact",
 									"protocol": "https",
 									"host": [
 										"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -305,7 +305,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/combo",
+											"raw": "{{url}}/configurations/metadatas/combo",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -366,7 +366,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/list",
+											"raw": "{{url}}/configurations/metadatas/list",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -433,7 +433,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/show/:id",
+											"raw": "{{url}}/configurations/metadatas/show/:id",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -500,7 +500,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/new",
+											"raw": "{{url}}/configurations/metadatas/new",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -567,7 +567,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/edit/:id",
+											"raw": "{{url}}/configurations/metadatas/edit/:id",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -640,7 +640,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/toggle-status/:id",
+											"raw": "{{url}}/configurations/metadatas/toggle-status/:id",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -713,7 +713,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/configurations/metadatas/delete/:id",
+											"raw": "{{url}}/configurations/metadatas/delete/:id",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -792,7 +792,7 @@
 											"raw": ""
 										},
 										"url": {
-											"raw": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io/prerogatives/roles/combo",
+											"raw": "{{url}}/prerogatives/roles/combo",
 											"protocol": "https",
 											"host": [
 												"a5c5a460-ccf0-49e7-82cb-3f19c136c5ae",
@@ -8531,7 +8531,7 @@
 		{
 			"id": "a5ec7e08-fbec-48a5-82b4-94ded3c3cc66",
 			"key": "url",
-			"value": "https://a5c5a460-ccf0-49e7-82cb-3f19c136c5ae.mock.pstmn.io"
+			"value": "{{url}}"
 		},
 		{
 			"id": "1bcc1453-704d-40f2-8ab7-70b1cbd9c344",
